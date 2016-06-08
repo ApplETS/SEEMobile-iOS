@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD4605141E43A01AEA84322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD46ED5094979AC1717E445 /* Assets.xcassets */; };
+		EBD4637F41D50AFB2B4AD41B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD462511E79AACE705C7E32 /* DetailViewController.swift */; };
+		EBD4649CBBA021C9176E445C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD46A14AF353A69647C339E /* LaunchScreen.storyboard */; };
+		EBD464D5349FC0E9960AF8B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD466863908194D58CFDC7A /* Info.plist */; };
+		EBD46526C7FA4BD66CFCD166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD465668E698ED9B55A430B /* Main.storyboard */; };
+		EBD466B10D6210BCD199D027 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD46B2452DBB877E07D31E6 /* Info.plist */; };
+		EBD4676E000CBDB474BF6CC8 /* SEEMobile_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBD46570C122683BE3409259 /* SEEMobile_iOS.xcdatamodeld */; };
+		EBD4681A877670833249562B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD46D39416D4ED62E8D6CB7 /* MasterViewController.swift */; };
+		EBD469ADAF6BAA845B9F106E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD46FE5FB56B94C9F0F5F84 /* Info.plist */; };
+		EBD46B08E13C8E89BFEEE119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD46B30BEB604E90F43DEEE /* AppDelegate.swift */; };
+		EBD46DD9E9C609D70F5CE9AE /* SEEMobile_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD461BDB9FD166DC8BE3C53 /* SEEMobile_iOSTests.swift */; };
+		EBD46F330A080A48D7DA6428 /* SEEMobile_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD46AC7753907354ACAD048 /* SEEMobile_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD460C3196A7394DE1B5BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD464F0A1F55A2A798E99F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD462F523E9225EF7B869CE;
+			remoteInfo = "SEEMobile-iOS";
+		};
+		EBD46502D93C6D652022D3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD464F0A1F55A2A798E99F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD462F523E9225EF7B869CE;
+			remoteInfo = "SEEMobile-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD460D25FC229F876771CD8 /* SEEMobile-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEEMobile-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD461BDB9FD166DC8BE3C53 /* SEEMobile_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEEMobile_iOSTests.swift; sourceTree = "<group>"; };
+		EBD462511E79AACE705C7E32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EBD4631CC1B76E33DA98BE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD46685333E289FFE652DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD466863908194D58CFDC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EBD46AC7753907354ACAD048 /* SEEMobile_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEEMobile_iOSUITests.swift; sourceTree = "<group>"; };
+		EBD46B2452DBB877E07D31E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EBD46B30BEB604E90F43DEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD46B4B4618515E8D51AA30 /* SEEMobile-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEEMobile-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD46BD78DBE8E7322FE2C58 /* SEEMobile_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SEEMobile_iOS.xcdatamodel; sourceTree = "<group>"; };
+		EBD46D39416D4ED62E8D6CB7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EBD46E3C16D2ACFCE8C81F26 /* SEEMobile-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEEMobile-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD46ED5094979AC1717E445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD46FE5FB56B94C9F0F5F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD462722498DE6D964849FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD46B64B69AFEFBC32B6F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD46F2499D7FCA34732C444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD4618B5A55D0E01AC833FC /* SEEMobile-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD46B2452DBB877E07D31E6 /* Info.plist */,
+				EBD46AC7753907354ACAD048 /* SEEMobile_iOSUITests.swift */,
+			);
+			path = "SEEMobile-iOSUITests";
+			sourceTree = "<group>";
+		};
+		EBD462AB412C8FC0C9393670 /* SEEMobile-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EBD466863908194D58CFDC7A /* Info.plist */,
+				EBD46ED5094979AC1717E445 /* Assets.xcassets */,
+				EBD46A14AF353A69647C339E /* LaunchScreen.storyboard */,
+				EBD46B30BEB604E90F43DEEE /* AppDelegate.swift */,
+				EBD46570C122683BE3409259 /* SEEMobile_iOS.xcdatamodeld */,
+				EBD465668E698ED9B55A430B /* Main.storyboard */,
+				EBD46D39416D4ED62E8D6CB7 /* MasterViewController.swift */,
+				EBD462511E79AACE705C7E32 /* DetailViewController.swift */,
+			);
+			path = "SEEMobile-iOS";
+			sourceTree = "<group>";
+		};
+		EBD4646A5EE735F4A7ED26B6 /* SEEMobile-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD46FE5FB56B94C9F0F5F84 /* Info.plist */,
+				EBD461BDB9FD166DC8BE3C53 /* SEEMobile_iOSTests.swift */,
+			);
+			path = "SEEMobile-iOSTests";
+			sourceTree = "<group>";
+		};
+		EBD466AD508B4A2B58DAF74D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD460D25FC229F876771CD8 /* SEEMobile-iOS.app */,
+				EBD46B4B4618515E8D51AA30 /* SEEMobile-iOSTests.xctest */,
+				EBD46E3C16D2ACFCE8C81F26 /* SEEMobile-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD468E8F0174E9200999793 = {
+			isa = PBXGroup;
+			children = (
+				EBD466AD508B4A2B58DAF74D /* Products */,
+				EBD462AB412C8FC0C9393670 /* SEEMobile-iOS */,
+				EBD4646A5EE735F4A7ED26B6 /* SEEMobile-iOSTests */,
+				EBD4618B5A55D0E01AC833FC /* SEEMobile-iOSUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD462F523E9225EF7B869CE /* SEEMobile-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4673873E7F708ABEF0E4A /* Build configuration list for PBXNativeTarget "SEEMobile-iOS" */;
+			buildPhases = (
+				EBD462912EC674E3C17C102D /* Sources */,
+				EBD46F2499D7FCA34732C444 /* Frameworks */,
+				EBD46389FD33CECDC3E4E711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEEMobile-iOS";
+			productName = "SEEMobile-iOS";
+			productReference = EBD460D25FC229F876771CD8 /* SEEMobile-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD46567A704F79AF7FEC1AA /* SEEMobile-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4697D393A8501AE4BF9E9 /* Build configuration list for PBXNativeTarget "SEEMobile-iOSTests" */;
+			buildPhases = (
+				EBD46BD86BFDA77EA694BDA7 /* Sources */,
+				EBD462722498DE6D964849FC /* Frameworks */,
+				EBD468B76AF8472E64031B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4672898CC128DA5D85E45 /* PBXTargetDependency */,
+			);
+			name = "SEEMobile-iOSTests";
+			productName = "SEEMobile-iOSTests";
+			productReference = EBD46B4B4618515E8D51AA30 /* SEEMobile-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD4681297641F88D7FCAC0E /* SEEMobile-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD46382F63DB6BF954A5183 /* Build configuration list for PBXNativeTarget "SEEMobile-iOSUITests" */;
+			buildPhases = (
+				EBD464266F94A94DFB033467 /* Sources */,
+				EBD46B64B69AFEFBC32B6F02 /* Frameworks */,
+				EBD467C9B902FF85CE290055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4623A83DE9891888F8779 /* PBXTargetDependency */,
+			);
+			name = "SEEMobile-iOSUITests";
+			productName = "SEEMobile-iOSUITests";
+			productReference = EBD46E3C16D2ACFCE8C81F26 /* SEEMobile-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD464F0A1F55A2A798E99F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "École de technologie supérieure";
+			};
+			buildConfigurationList = EBD467AA3E5DAFD28F4B298D /* Build configuration list for PBXProject "SEEMobile-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBD468E8F0174E9200999793;
+			productRefGroup = EBD466AD508B4A2B58DAF74D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD462F523E9225EF7B869CE /* SEEMobile-iOS */,
+				EBD46567A704F79AF7FEC1AA /* SEEMobile-iOSTests */,
+				EBD4681297641F88D7FCAC0E /* SEEMobile-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD46389FD33CECDC3E4E711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD464D5349FC0E9960AF8B0 /* Info.plist in Resources */,
+				EBD4605141E43A01AEA84322 /* Assets.xcassets in Resources */,
+				EBD4649CBBA021C9176E445C /* LaunchScreen.storyboard in Resources */,
+				EBD46526C7FA4BD66CFCD166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD467C9B902FF85CE290055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD466B10D6210BCD199D027 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD468B76AF8472E64031B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD469ADAF6BAA845B9F106E /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD462912EC674E3C17C102D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD46B08E13C8E89BFEEE119 /* AppDelegate.swift in Sources */,
+				EBD4676E000CBDB474BF6CC8 /* SEEMobile_iOS.xcdatamodeld in Sources */,
+				EBD4681A877670833249562B /* MasterViewController.swift in Sources */,
+				EBD4637F41D50AFB2B4AD41B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD464266F94A94DFB033467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD46F330A080A48D7DA6428 /* SEEMobile_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD46BD86BFDA77EA694BDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD46DD9E9C609D70F5CE9AE /* SEEMobile_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD4623A83DE9891888F8779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD462F523E9225EF7B869CE /* SEEMobile-iOS */;
+			targetProxy = EBD460C3196A7394DE1B5BB8 /* PBXContainerItemProxy */;
+		};
+		EBD4672898CC128DA5D85E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD462F523E9225EF7B869CE /* SEEMobile-iOS */;
+			targetProxy = EBD46502D93C6D652022D3D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD465668E698ED9B55A430B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD46685333E289FFE652DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD46A14AF353A69647C339E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4631CC1B76E33DA98BE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD4616169B44C02A37C1049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD4634469595162C5A69E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEEMobile-iOS.app/SEEMobile-iOS";
+				INFOPLIST_FILE = "SEEMobile-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EBD463E66D6702854FE8C6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD4646332D7975A4B21482D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEEMobile-iOS.app/SEEMobile-iOS";
+				INFOPLIST_FILE = "SEEMobile-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		EBD46511AEB4E34B377F8684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SEEMobile-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD468161E878F21C4E8C42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEEMobile-iOS.app/SEEMobile-iOS";
+				INFOPLIST_FILE = "SEEMobile-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		EBD46DC94E765ED4C3274646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEEMobile-iOS.app/SEEMobile-iOS";
+				INFOPLIST_FILE = "SEEMobile-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EBD46E3E07FE020EE6F8A11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SEEMobile-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etsmtl.SEEMobile-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD46382F63DB6BF954A5183 /* Build configuration list for PBXNativeTarget "SEEMobile-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4634469595162C5A69E05 /* Debug */,
+				EBD4646332D7975A4B21482D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4673873E7F708ABEF0E4A /* Build configuration list for PBXNativeTarget "SEEMobile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD46511AEB4E34B377F8684 /* Debug */,
+				EBD46E3E07FE020EE6F8A11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD467AA3E5DAFD28F4B298D /* Build configuration list for PBXProject "SEEMobile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4616169B44C02A37C1049 /* Debug */,
+				EBD463E66D6702854FE8C6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD4697D393A8501AE4BF9E9 /* Build configuration list for PBXNativeTarget "SEEMobile-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD46DC94E765ED4C3274646 /* Debug */,
+				EBD468161E878F21C4E8C42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBD46570C122683BE3409259 /* SEEMobile_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBD46BD78DBE8E7322FE2C58 /* SEEMobile_iOS.xcdatamodel */,
+			);
+			currentVersion = EBD46BD78DBE8E7322FE2C58 /* SEEMobile_iOS.xcdatamodel */;
+			path = SEEMobile_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBD464F0A1F55A2A798E99F5 /* Project object */;
+}
